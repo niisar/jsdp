@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Observable properties pattern</title>
 </head>
+
 <body>
     <strong>Result</strong>
     <div id='result'>
@@ -17,31 +19,31 @@
         var changedDiv = document.getElementById('changed');
 
         Object.defineProperty(this, 'name', {
-            get: function() {
+            get: function () {
                 return name;
             },
-            set: function(val) {
+            set: function (val) {
                 name = val;
                 changedDiv.innerHTML = 'The name is: ' + name + "<br />";
             }
         });
 
         Object.defineProperty(this, 'price', {
-            get: function() {
+            get: function () {
                 return price;
             },
-            set: function(val) {
+            set: function (val) {
                 price = val;
                 if (price > 100) {
                     changedDiv.innerHTML += 'System error, price has gone unexpectedly high<br/>';
-                }else{
+                } else {
                     changedDiv.innerHTML += 'The price is $' + price + "<br/>";
                 }
             }
         });
     }
 
-    (function() {
+    (function () {
         var book = new Book('Java Script: The Good Parts', 23.99);
         var resultDiv = document.getElementById('result');
         resultDiv.innerHTML = 'The name is: ' + book.name + "<br />";
@@ -50,5 +52,7 @@
         book.price = "200";
         book.price = "77";
     })();
+
 </script>
+
 </html>

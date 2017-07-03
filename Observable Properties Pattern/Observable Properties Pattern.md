@@ -1,3 +1,14 @@
+If you’re familiar with C#, think about the INotifyPropertyChanging and INotifyPropertyChanged interface to implement observable properties.
+
+Here are some points before we implement observable properties in JavaScript:
+
+- Properties  implemented as methods
+- Check the incoming value and decide if you want to update
+- Return private variable
+- Store event handlers in an array
+- Utilise return values to abort the updating process
+
+``` html
 <!DOCTYPE html>
 <html>
 
@@ -79,3 +90,4 @@
 </script>
 
 </html>
+```
