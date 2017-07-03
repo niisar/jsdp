@@ -8,7 +8,7 @@ Here are some points before we implement observable properties in JavaScript:
 - Store event handlers in an array
 - Utilise return values to abort the updating process
 
-``` html
+``` js
 <!DOCTYPE html>
 <html>
 
