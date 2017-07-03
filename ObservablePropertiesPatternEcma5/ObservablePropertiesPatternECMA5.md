@@ -3,11 +3,9 @@ With ECMAScript5 properties can have methods body (similar to how .NET propertie
 ``` js
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>Observable properties pattern</title>
 </head>
-
 <body>
     <strong>Result</strong>
     <div id='result'>
@@ -80,6 +78,5 @@ With ECMAScript5 properties can have methods body (similar to how .NET propertie
         book.price(77);
     })();
 </script>
-
 </html>
 ```
