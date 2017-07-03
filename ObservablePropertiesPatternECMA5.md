@@ -1,6 +1,6 @@
 With ECMAScript5 properties can have methods body (similar to how .NET properties look) and it's very powerful
 
-``` html
+``` js
 <!DOCTYPE html>
 <html>
 
