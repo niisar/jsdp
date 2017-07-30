@@ -1,23 +1,47 @@
-### Asynchronous Execution Pattern
+### Asynchronous Execution Pattern [Example](https://plnkr.co/edit/zwU1E2O16Z076ind5UYp?p=preview)
 
-So the idea of the asynchronous execution pattern is to split out long-running JavaScript block using setTimeouts and On most low powered devices, long running functions will block the UI so that they should be split over several setTimeout calls.
+So the idea of the asynchronous execution pattern is to split out long-running JavaScript block using several setTimeouts calls.
 
 ``` js
-var buffer = function(items, iterFn, callback) {
-    var i = 0, len = items.length;
-    setTimeout(function() {
-        var result;
-        for(var start = +new Date; i > len && result !== false && ((+new Date) - start)) {
-            result = iterFn.call(items[i], items[i], i);
-        }
-        if(i < len && result !== false) {
-            setTimeout(arguments.callee, 20);
-        }
-        else {
-            callback(items);
-        }
-    }, 20);
-};
+<html>
+<body>
+    <ul id="ul">
+    </ul>
+</body>
+<script>
+    var demoArray = [];
+    for (var i = 1; i <= 1000; i++) {
+        demoArray.push(1 + Math.floor(Math.random() * 50));
+    }
 
-buffer(items, function(item) {}, function() {});
+    (function() {
+        var buffer = function(items, iterFunction, callback) {
+            var i = 0.
+            len = items.length;
+            setTimeout(function() {
+                var result;
+                // +new Date returns the number of milliseconds   
+                //((+new Date) - start < 50 => buffer of 50 milliseconds            
+                for (var start = +new Date; i < len && result !== false && ((+new Date) - start < 50); i++) {
+                    result = iterFunction.call(items[i], items[i], i);
+                }
+                /* callee is a property of the arguments object. It can be used to refer to the currently executing function inside the function body of that function. This is for example useful when you don't know the name of this function, which is for example the case with anonymous functions. */
+                if (i < len && result !== false) {
+                    setTimeout(arguments.callee, 20);
+                } else {
+                    callback();
+                }
+            }, 20);
+        };
+        var html = '';
+        buffer(demoArray, function(item) {
+            html += '<li>' + item + '</li>';
+        }, function() {
+            document.getElementById('ul').innerHTML = html;
+        });
+    })();
+</script>
+</html>
 ```
+
+### [View and Download Demo](https://plnkr.co/edit/zwU1E2O16Z076ind5UYp?p=preview)
