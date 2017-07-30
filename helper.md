@@ -1,0 +1,1 @@
+http://jscriptpatterns.blogspot.in/2012/09/recursive-settimeout-pattern.html
