@@ -1,3 +1,5 @@
+## Observable Properties Pattern ECMA5
+
 With ECMAScript5 properties can have methods body (similar to how .NET properties look) and it's very powerful
 
 ``` js

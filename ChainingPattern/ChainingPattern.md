@@ -1,3 +1,5 @@
+## Chaining Pattern
+
 Method chaining is a common technique for invoking multiple method calls in object-oriented programming languages. Each method returns an object (possibly the current object itself), allowing the calls to be chained together in a single statement (Wikipedia definition). This technique was made popular in several libraries, like jQuery.
 
 ``` js

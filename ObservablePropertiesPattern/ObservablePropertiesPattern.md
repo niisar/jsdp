@@ -1,3 +1,5 @@
+## Observable Properties Pattern
+
 If you’re familiar with C#, think about the INotifyPropertyChanging and INotifyPropertyChanged interface to implement observable properties.
 
 Here are some points before we implement observable properties in JavaScript:
