@@ -1,5 +1,9 @@
 ### Asynchronous Execution Pattern [Example](https://plnkr.co/edit/zwU1E2O16Z076ind5UYp?p=preview)
 
+Browser are single threaded, that means that the browser can only be doing either updates to the UI or executing JavaScript at any given point of time because it's incapable of doing both simultaneously.
+
+The long-running JavaScript can cause the UI to become unresponsive or appear to be unresponsive.
+
 So the idea of the asynchronous execution pattern is to split out long-running JavaScript block using several setTimeouts calls.
 
 ``` js
