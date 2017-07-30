@@ -1,3 +1,2 @@
 # JavaScript Design Pattern
 
-
