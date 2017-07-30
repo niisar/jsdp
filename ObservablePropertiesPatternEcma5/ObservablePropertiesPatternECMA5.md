@@ -1,4 +1,5 @@
-## Observable Properties Pattern ECMA5
+## Observable Properties Pattern ECMA5 [Example](https://plnkr.co/edit/r2KzQQvceysUbWmZRlte?p=preview)
+
 
 With ECMAScript5 properties can have methods body (similar to how .NET properties look) and it's very powerful
 
@@ -82,3 +83,5 @@ With ECMAScript5 properties can have methods body (similar to how .NET propertie
 </script>
 </html>
 ```
+
+### [View and Download Demo](https://plnkr.co/edit/Kt7gjnizY8CutfWUN3HC?p=preview)
