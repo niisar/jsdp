@@ -1,4 +1,4 @@
-## Chaining Pattern
+## Chaining Pattern [Example](https://plnkr.co/edit/4iUanTTjYr8XmUNPXFbI?p=preview)
 
 Method chaining is a common technique for invoking multiple method calls in object-oriented programming languages. Each method returns an object (possibly the current object itself), allowing the calls to be chained together in a single statement (Wikipedia definition). This technique was made popular in several libraries, like jQuery.
 
@@ -49,3 +49,5 @@ Method chaining is a common technique for invoking multiple method calls in obje
 
 </html>
 ```
+
+### [View and Download Demo](https://plnkr.co/edit/4iUanTTjYr8XmUNPXFbI?p=preview)

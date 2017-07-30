@@ -1,4 +1,4 @@
-## Observable Properties Pattern
+## Observable Properties Pattern [Example](https://plnkr.co/edit/4iUanTTjYr8XmUNPXFbI?p=preview)
 
 If you’re familiar with C#, think about the INotifyPropertyChanging and INotifyPropertyChanged interface to implement observable properties.
 
@@ -93,3 +93,5 @@ Here are some points before we implement observable properties in JavaScript:
 
 </html>
 ```
+
+### [View and Download Demo](https://plnkr.co/edit/4iUanTTjYr8XmUNPXFbI?p=preview)
