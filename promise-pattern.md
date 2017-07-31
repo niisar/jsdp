@@ -5,6 +5,7 @@ A promise is an object that may produce a single value some time in the future.
 While synchronous code is easier to follow and debug, async is generally better for performance and flexibility and a **promise** is an object which can be returned synchronously from an asynchronous function. 
 
 #### Promise Example
+
 ``` js
 /* ES5, using Bluebird */
 var isMomHappy = true;
