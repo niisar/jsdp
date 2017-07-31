@@ -7,3 +7,6 @@
 * Timer Pattern
     * Asynchronous Execution Pattern
     * Recursive setTimeout pattern
+* Promise Pattern
+    * Promise in ES6
+    * Promise in ES7
