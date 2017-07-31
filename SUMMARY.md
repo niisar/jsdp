@@ -8,5 +8,5 @@
 * [Timer Pattern](timer-pattern.md)
   * [Asynchronous Execution Pattern](timer-pattern/asynchronous-execution-pattern.md)
   * [Recursive setTimeout pattern](timer-pattern/recursive-settimeout-pattern.md)
-* [helper](helper.md)
+* [Promise Pattern](promise-pattern.md)
 
