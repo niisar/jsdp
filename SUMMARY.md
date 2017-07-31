@@ -10,4 +10,5 @@
   * [Recursive setTimeout pattern](timer-pattern/recursive-settimeout-pattern.md)
 * [Promise Pattern](promise-pattern.md)
   * [Promise in ES6](promise-pattern/promise-in-es6.md)
+  * [Promise in ES7](promise-pattern/promise-in-es7.md)
 
