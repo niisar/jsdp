@@ -7,7 +7,6 @@ While synchronous code is easier to follow and debug, async is generally better 
 #### Promise Example
 
 ``` js
-/* ES5, using Bluebird */
 var isMomHappy = true;
 
 // Promise
