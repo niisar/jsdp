@@ -9,4 +9,5 @@
   * [Asynchronous Execution Pattern](timer-pattern/asynchronous-execution-pattern.md)
   * [Recursive setTimeout pattern](timer-pattern/recursive-settimeout-pattern.md)
 * [Promise Pattern](promise-pattern.md)
+  * [Promise in ES6](promise-pattern/promise-in-es6.md)
 
