@@ -2,7 +2,7 @@
 
 Javascript properties are enumerable, writable and configurable by default.
 
-For Example.. Below i am able to assign any value to the `toString` property.
+For Example.. Below we are able to assign any value to the `toString` function.
 
 ``` js
 var task = {
@@ -20,6 +20,6 @@ Object.defineProperty(task, 'toString', {
 });
 
 task.toString = 'hi';
-console.log(task.toString);
+console.log(task.toString());
 ```
 
