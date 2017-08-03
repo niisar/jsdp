@@ -12,7 +12,7 @@
   * [Promise in ES6](promise-pattern/promise-in-es6.md)
   * [Promise in ES7](promise-pattern/promise-in-es7.md)
 * [Creational Pattern](creational-pattern.md)
-  * Constructor Pattern
+  * [Constructor Pattern](creational-pattern/constructor-pattern.md)
   * Module Pattern
   * Factory Pattern
   * Singleton Pattern
