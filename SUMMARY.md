@@ -11,4 +11,12 @@
 * [Promise Pattern](promise-pattern.md)
   * [Promise in ES6](promise-pattern/promise-in-es6.md)
   * [Promise in ES7](promise-pattern/promise-in-es7.md)
+* Creational Pattern
+  * Constructor Pattern
+  * Module Pattern
+  * Factory Pattern
+  * Singleton Pattern
+* Structural Pattern
+  * Decorator Pattern
+  * Facade Pattern
 
