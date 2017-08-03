@@ -16,12 +16,12 @@
   * [Module Pattern](creational-pattern/module-pattern.md)
   * [Factory Pattern](creational-pattern/factory-pattern.md)
   * [Singleton Pattern](creational-pattern/singleton-pattern.md)
-* Structural Pattern
-  * Decorator Pattern
-  * Facade Pattern
-  * Flyweight Pattern
-* Behavioral Pattern
-  * Command Pattern
-  * Mediator Pattern
-  * Observer Pattern
+* [Structural Pattern](structural-pattern.md)
+  * [Decorator Pattern](structural-pattern/decorator-pattern.md)
+  * [Facade Pattern](structural-pattern/facade-pattern.md)
+  * [Flyweight Pattern](structural-pattern/flyweight-pattern.md)
+* [Behavioral Pattern](behavioral-pattern.md)
+  * [Command Pattern](behavioral-pattern/command-pattern.md)
+  * [Mediator Pattern](behavioral-pattern/mediator-pattern.md)
+  * [Observer Pattern](behavioral-pattern/observer-pattern.md)
 
