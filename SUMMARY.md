@@ -24,4 +24,5 @@
   * [Command Pattern](behavioral-pattern/command-pattern.md)
   * [Mediator Pattern](behavioral-pattern/mediator-pattern.md)
   * [Observer Pattern](behavioral-pattern/observer-pattern.md)
+* [Understanding JavaScript Object](understanding-javascript-object.md)
 
