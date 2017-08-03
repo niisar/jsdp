@@ -13,9 +13,9 @@
   * [Promise in ES7](promise-pattern/promise-in-es7.md)
 * [Creational Pattern](creational-pattern.md)
   * [Constructor Pattern](creational-pattern/constructor-pattern.md)
-  * Module Pattern
-  * Factory Pattern
-  * Singleton Pattern
+  * [Module Pattern](creational-pattern/module-pattern.md)
+  * [Factory Pattern](creational-pattern/factory-pattern.md)
+  * [Singleton Pattern](creational-pattern/singleton-pattern.md)
 * Structural Pattern
   * Decorator Pattern
   * Facade Pattern
