@@ -1,5 +1,10 @@
 ## Constructor Pattern [Example](https://plnkr.co/edit/J7FnTxYZgM5ZmJjfEbIe?p=preview)
 
+### Prototype
+Prototype is an encapsulation of properties that an object links to.
+
+Prototype helps when we do not want to copy the complete function while creating an object.
+
 ##### ES5 
 
 ``` js
