@@ -5,3 +5,5 @@
 * Factory Pattern
 * Singleton Pattern
 
+### Prototype
+An encapsulation of properties that an object links to.
