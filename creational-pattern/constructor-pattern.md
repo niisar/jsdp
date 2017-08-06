@@ -60,5 +60,3 @@ task2.save();
 task3.save();
 task4.save();
 ```
-
-##### Angular JS [Example](https://plnkr.co/edit/0T66o4wFBVNc5JtVnaPZ?p=preview)
