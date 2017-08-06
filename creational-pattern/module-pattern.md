@@ -44,7 +44,7 @@ function whatismyscope() {
 whatismyscope()()
 ```
 
-### [Module Pattern Example](https://plnkr.co/edit/ThUZI1DpYRlZbDptFbLn?p=preview)
+### Applying Above two concept below (IIFE + Closure) [Module Pattern Example](https://plnkr.co/edit/ThUZI1DpYRlZbDptFbLn?p=preview)
 
 ``` js
 var modularpattern = (function() {
