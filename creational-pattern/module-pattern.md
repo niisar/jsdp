@@ -8,7 +8,7 @@ In order to understand Module design pattern, we need to understand these concep
 
 ### IIFE
 
-``` js
+```js
 (function () {
   // code
 })();
