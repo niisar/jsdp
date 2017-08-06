@@ -15,5 +15,21 @@ In order to understand Module design pattern, we need to understand these concep
 ```
 
 There are two ways you can use the functions. 
-1. Function declaration 2. Function definition. Here are using function definition expression.
-It declares a function, which then calls itself immediately.
+  
+  1. Function declaration 
+  2. Function definition. 
+  
+Here are using _function definition_ expression. It declares a function, which then calls itself immediately.
+
+Now if we add the namespace to the above piece of code then
+
+```js
+var Module = (function () {
+  // code
+})();
+```
+
+We then have Module declared in the global scope, which means we can call it wherever we like, and even pass it into another Module.
+
+### Closure
+A closure is an inner function that has access to the outer function’s variables in addition to it's own variables and global variables. The inner function has access not only to the outer function’s variables, but also to the outer function’s parameters. This is happen because in Javascript is using something called lexical scoping also known as static scope that means inner functions contain the scope of parent functions.
