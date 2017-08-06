@@ -10,3 +10,8 @@
 * Promise Pattern
     * Promise in ES6
     * Promise in ES7
+    
+    
+    
+    
+    https://code.tutsplus.com/tutorials/understanding-design-patterns-in-javascript--net-25930
