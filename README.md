@@ -12,6 +12,9 @@
     * Promise in ES7
     
     
-    
+--------------------
+A design pattern is a reusable software solution. It is proven solutions to software development problems. It is scalable as they usually are structured and have rules that you should follow.
+
+
     
     https://code.tutsplus.com/tutorials/understanding-design-patterns-in-javascript--net-25930
