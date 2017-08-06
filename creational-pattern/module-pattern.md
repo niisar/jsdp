@@ -65,3 +65,17 @@ console.log(modularpattern.add());
 console.log(modularpattern.add());
 console.log(modularpattern.reset());
 ```
+
+### Advantage
+* Cleaner approach for developers
+* Supports private data
+* Less clutter in the global namespace
+* Localization of functions and variables through closures
+
+### Disadvantage
+
+* Private methods are unaccessible. Some people say that this leads to the inability of unit testing..
+      
+  It should probably be engineered in such a fashion that exposes the utility of that function publicly, thus making it testable. 
+  
+* Private methods and functions lose extendability since they are unaccessible
