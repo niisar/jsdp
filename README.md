@@ -16,5 +16,10 @@
 A design pattern is a reusable software solution. It is proven solutions to software development problems. It is scalable as they usually are structured and have rules that you should follow.
 
 
+Refs
+-------------    
+https://code.tutsplus.com/tutorials/understanding-design-patterns-in-javascript--net-25930
     
-    https://code.tutsplus.com/tutorials/understanding-design-patterns-in-javascript--net-25930
+https://addyosmani.com/resources/essentialjsdesignpatterns/book/#decoratorpatternjavascript
+
+https://carldanley.com/javascript-design-patterns/
